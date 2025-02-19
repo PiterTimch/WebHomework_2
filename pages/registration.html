@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Магазин домашніх тварин</title>
+
+    <script src="/js/site.js"></script>
+
+    <script>loadDOM('/partials/head_links.html')</script>
+</head>
+<body class="d-flex align-items-center py-4 bg-body-tertiary">
+    <script>loadDOM('/partials/header.html')</script>
+
+    <main class="form-signin w-100 m-auto" style="max-width: 300px">
+        <form style="margin-top: 20%">
+            <h1 class="h3 mb-3 fw-normal">Введіть дані для реєстрації</h1>
+
+            <div class="form-floating">
+                <input class="form-control" id="floatingName" placeholder="Name">
+                <label for="floatingInput">Ім'я</label>
+            </div>
+            <div class="form-floating form-floating-margin">
+                <input class="form-control" id="floatingLogin" placeholder="Login">
+                <label for="floatingInput">Логін</label>
+            </div>
+            <div class="form-floating form-floating-margin">
+                <input class="form-control" id="floatingInput" placeholder="+380111111111">
+                <label for="floatingInput">Телефон</label>
+            </div>
+            <div class="form-floating form-floating-margin">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email</label>
+            </div>
+            <br />
+            <div class="form-floating form-floating-margin">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Пароль</label>
+            </div>
+            <div class="form-floating form-floating-margin">
+                <input type="password" class="form-control" id="floatingRePassword" placeholder="RePassword">
+                <label for="floatingPassword">Повторити пароль</label>
+            </div>
+
+            <div class="form-check text-start my-3">
+                <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Отримувати push-листи
+                </label>
+            </div>
+            <a class="btn btn-dark w-100 py-2" href="/">Зареєструватися</a>
+            <p class="mt-5 mb-3 text-body-secondary">©YourSoftware 2025</p>
+        </form>
+    </main>
+</body>
+</html>
